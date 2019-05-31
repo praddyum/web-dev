@@ -1,0 +1,38 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sign-Up</title>
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+        <div class="signupbox">
+        	<img src="2.jpg" class="avatar">
+        	<h1>Sign Up</h1>
+        	<form action="https://code.jquery.com/" method="post">
+        		<p>Username*</p>
+        		<input type="text" id="inpnam"  placeholder="Enter Username" required>
+
+        		<p>E-mail*</p>
+        		<input type="E-mail" id="inpmail"  placeholder="Enter Email" required>
+
+        		<p>Password*</p>
+        		<input type="password" id="inpass"  placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+        		<p>Mobile*</p>
+        		<input type="Tel"  placeholder="Enter Mobile No." pattern="[1-9]{3}[0-9]{3}[0-9]{4}" title="first 3 between 1-9 and rest 7 between 0-9"  required>
+
+        		<script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>
+
+        		<button type="submit" class="button1" onclick="return check1()">SignUp</button>
+                
+
+                <a href="#">Get help</a>
+        	</form>
+        </div>	
+<script src="javascript/2.js"></script>
+</body>	
+</html>
