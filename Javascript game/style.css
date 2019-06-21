@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-color: rgb(53, 44, 33);
+}
+#timeup{
+   font-weight: bold;
+}
+#fig{
+   width: 200px;
+   height: 200px;
+   background-color: blue;
+   display: none;
+   position: relative;  
+}
+#ab{
+   background-color: rgb(46, 179, 179);
+   width:400px;
+ border-radius: 2%;
+ 
+    margin: 0px auto;
+ 
+}
+#head{
+font-size: 250%;
+    font-family: Helvetica, Arial,  sans-serif;
+    font-weight: bold;
+  text-align: center;
+}
+#bc{
+background-color: rgb(46, 179, 179);
+    margin: 0px auto;
+
+}
+.textstyle{
+font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  text-align: center;
+}
+#cd{
+background-color: rgb(46, 179, 179);
+   width:200px;
+   height:200px;
+ border-radius: 50%;
+ 
+    margin: 0px auto;
+ text-align: center;
+}
+#timeup{
+    background-color: rgb(46, 179, 179);
+   width:100px;
+   height:50px;
+   margin:0 auto;
+ border-radius: 2%;
+ text-align: center;  
+}
+#value{
+    font-size: 200%;
+ 
+}
+   
+   
